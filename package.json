@@ -1,0 +1,29 @@
+{
+  "name": "es6",
+  "version": "1.0.0",
+  "description": "Express JS Template",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "Ganesh",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongoose": "^6.2.4",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.15"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mbganesh/Express-ES6-Template.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mbganesh/Express-ES6-Template/issues"
+  },
+  "homepage": "https://github.com/mbganesh/Express-ES6-Template#readme"
+}
