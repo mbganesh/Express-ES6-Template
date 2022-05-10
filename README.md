@@ -14,6 +14,7 @@ const app = express()
 
 // for post req 
 app.use(express.json())
+app.use(cors())
 
 mongoose.connect('mongodb://localhost/practice')
 
