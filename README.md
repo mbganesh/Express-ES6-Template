@@ -3,6 +3,12 @@
 
 ```npm init -y```
 
+
+
+```npm i nodemon express morgan mongoose --save```
+
+
+
 ### [index.js](https://github.com/mbganesh/Express-ES6-Template/blob/main/index.js)
 ```
 import express from "express";
