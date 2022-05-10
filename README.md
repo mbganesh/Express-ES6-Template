@@ -12,6 +12,9 @@ import morgan from "morgan";
 
 const app = express()
 
+// for post req 
+app.use(express.json())
+
 mongoose.connect('mongodb://localhost/practice')
 
 app.use('/api' , api)
