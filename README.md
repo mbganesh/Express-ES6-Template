@@ -15,6 +15,7 @@ import express from "express";
 import mongoose from "mongoose";
 import api from './Router/api.js'
 import morgan from "morgan";
+import cors from 'cors'
 
 const app = express()
 
