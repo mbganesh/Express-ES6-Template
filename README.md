@@ -7,6 +7,10 @@
 
 ```npm i nodemon express morgan mongoose --save```
 
+For Linux users:
+
+```sudo npm install -g nodemon```
+
 
 
 ### [index.js](https://github.com/mbganesh/Express-ES6-Template/blob/main/index.js)
