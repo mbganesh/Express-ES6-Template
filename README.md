@@ -120,3 +120,15 @@ export default model
 }
 
 ```
+
+
+Finally upload your repo
+
+# Check existing remote
+```git remote -v```  
+
+# Change origin to new repo
+```git remote set-url origin <new_repo_url>```
+
+# Verify
+git remote -v
